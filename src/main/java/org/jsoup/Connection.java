@@ -43,6 +43,7 @@ public interface Connection {
          * @return if body needed
          */
         public final boolean hasBody() {
+        	System.out.println("HelloWorld");
             return hasBody;
         }
     }
